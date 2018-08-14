@@ -1,0 +1,154 @@
+/* INDEX PAGE */
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(https://fonts.gstatic.com/s/jura/v9/z7NbdRfiaC4VXcRJUQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+	font-family: "jura";
+	width: 55%;
+	margin: auto;
+	padding-bottom: 35px;
+}
+
+h1 {
+	font-family: 'jura';
+	font-variant: normal; 
+	font-weight: 100; 
+	line-height: 11px; 
+	text-align: right;
+	letter-spacing:1.5px;
+	font-size: 34pt;
+}
+
+h5 {
+	font-family: 'Jura'; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+}
+
+p{
+	text-align: center;
+	font-family: "jura";
+	font-size: 12pt;
+	letter-spacing: 2.5px; 
+	margin: auto;
+	width: 45%;
+}
+
+.C1 {
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+}
+
+.C2 {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+} 
+
+.C3 {
+	padding-top: 300px;
+}
+
+a:hover {
+	color: black;
+}
+
+nav {
+	margin: auto;
+}
+
+.header {
+	margin: auto;
+	margin-top: 80px;
+	border-bottom: 1px solid;
+}
+
+ul {
+	margin-left: -35px;
+	height: 35px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+
+}
+
+/* CONTACT PAGE */
+
+table {
+	/* border-collapse: collapse; */
+	/* coller les cases entres elles */
+	margin: auto;
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#Contact_Block {
+	text-align: center;
+}
+
+
+#Message {
+	margin-top: 1px;
+}
+
+/* PORTFOLIO PAGE */
+
+img {
+	height: 15%;	
+	width: 15%;
+}
+
+#compas {
+	transform: rotate(180deg);
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animated {
+	-webkit-animation:fadeIn 1.85s;
+}
+/* Différents type d'encadrés par la fonction border: largeur[px] type couleur*/ 
+/*Type = [none, dotted, dashed, solid, double, groove, ridge, inset, outset]*/
+
+/* border-radius pour arrondir les bordures
+
+/* Fonction padding pour créer un espacement dans le cadre de texte */
+
+
+/* Ombres box-shadow: dV, dH, Adoucissement, couleur*/
+
