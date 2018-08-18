@@ -1,0 +1,596 @@
+/* INDEX PAGE */
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(https://fonts.gstatic.com/s/jura/v9/z7NbdRfiaC4VXcRJUQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animated {
+	-webkit-animation:fadeIn 1.85s;
+}
+
+@media only screen and (max-width: 399px) {
+	body {
+	font-family: "jura";
+	width: 100%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 100; 
+	line-height: 48px; 
+	letter-spacing: 1.5px;
+	font-size: 34pt;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.C1 {
+	color: grey;
+}
+
+.C2 {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+.menu {
+	margin-bottom: -18px;
+}
+
+.drop {
+	text-align: center;
+}
+
+.switcher {
+	display: none;
+}
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	padding: 30px;
+
+}
+
+td:last-child {
+	display: none;
+}
+
+
+img {
+	position: absolute;
+	object-fit: cover;
+	width: 350px;
+	transform: rotate(-90deg);
+}
+
+.index {
+	margin-bottom: -27px;
+}
+
+#image {
+	padding-top: 195px;
+	margin-left: -90px;
+}
+
+p{	
+	position: absolute;
+	text-align: left;
+	margin-left: 175px;
+	font-size: 9.5pt;
+	letter-spacing: 2.5px; 
+	max-width: 200px;
+	margin-top: -80px;
+}
+
+p::first-letter {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#para {
+	border-bottom: 1px solid;
+	padding-bottom: 270px;
+}
+
+
+h5 {
+	font-style: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+	position: relative;
+	text-align: center; 
+	top: 270px;
+}
+}
+
+@media only screen and (min-width: 400px) and (max-width:479px) {
+	/* phone portrait */
+body {
+	font-family: "jura";
+	width: 100%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 100; 
+	line-height: 48px; 
+	letter-spacing: 1.5px;
+	font-size: 34pt;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.C1 {
+	color: grey;
+}
+
+.C2 {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+.menu {
+	margin-bottom: -15px;
+}
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	padding: 30px;
+
+}
+
+td:last-child {
+	display: none;
+}
+
+
+img {
+	position: absolute;
+	object-fit: cover;
+	width: 350px;
+	transform: rotate(-90deg);
+}
+
+.index {
+	margin-bottom: -27px;
+}
+
+#image {
+	padding-top: 195px;
+	margin-left: -90px;
+}
+
+p{	
+	position: absolute;
+	text-align: left;
+	margin-left: 175px;
+	font-size: 9.5pt;
+	letter-spacing: 2.5px; 
+	max-width: 200px;
+	margin-top: -80px;
+}
+
+p::first-letter {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#para {
+	border-bottom: 1px solid;
+	padding-bottom: 270px;
+}
+
+
+h5 {
+	font-style: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+	position: relative;
+	text-align: center; 
+	top: 270px;
+}
+
+.dropdown {
+	display: none;
+}
+
+}
+
+
+@media only screen and (min-width:480px) and (max-width:959px) {
+	/* phone paysage + tablette */
+
+body {
+	font-family: "jura";
+	width: 100%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 100; 
+	line-height: 11px; 
+	letter-spacing: 1.5px;
+	font-size: 34pt;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.C1 {
+	color: grey;
+}
+
+.C2 {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+.menu {
+	margin-bottom: -15px;
+}
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	padding: 20px;
+
+}
+
+td:last-child {
+	display: none;
+}
+
+
+img {
+	max-width: 80%;
+}
+
+.index {
+	margin-bottom: -27px;
+}
+
+#image {
+	border-bottom: 1px solid;
+	padding-top: 155px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	margin: auto;
+	font-size: 10pt;
+	letter-spacing: 2.5px; 
+	width: 65%;
+	margin-top: 45px;
+}
+
+p::first-letter {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#para {
+	border-bottom: 1px solid;
+	padding-bottom: 55px;
+}
+
+
+h5 {
+	font-style: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+	position: relative;
+	text-align: center; 
+	top: 270px;
+}
+
+.dropdown {
+	display: none;
+}
+
+}
+
+@media only screen and (min-width:960px) and (max-width:1280px) {
+	/* tablette paysage + petit pc */
+	body {
+	font-family: "jura";
+	width: 55%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 100; 
+	line-height: 11px; 
+	letter-spacing: 1.5px;
+	font-size: 34pt;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.C1 {
+	color: grey;
+}
+
+.C2 {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+.menu {
+	margin-bottom: -15px;
+}
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	padding: 20px;
+
+}
+
+td:last-child {
+	display: none;
+}
+
+
+img {
+	max-width: 80%;
+}
+
+.index {
+	margin-bottom: -27px;
+}
+
+#image {
+	border-bottom: 1px solid;
+	padding-top: 155px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	margin: auto;
+	font-size: 10pt;
+	letter-spacing: 2.5px; 
+	width: 45%;
+	margin-top: 45px;
+}
+
+p::first-letter {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#para {
+	border-bottom: 1px solid;
+	padding-bottom: 55px;
+}
+
+
+h5 {
+	font-style: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+	position: relative;
+	text-align: center; 
+	top: 270px;
+}
+
+.dropdown {
+	display: none;
+}
+
+}
+
+@media only screen and (min-width:1281px) {
+	/* large pc */
+body {
+	font-family: "jura";
+	width: 55%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 100; 
+	line-height: 11px; 
+	letter-spacing: 1.5px;
+	font-size: 34pt;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.C1 {
+	color: grey;
+}
+
+.C2 {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+.menu {
+	margin-bottom: -35px;
+}
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+td {
+	padding: 15px;
+}
+
+
+td:last-child {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
+}
+
+img {
+	max-width: 80%;
+}
+
+.index {
+	margin-bottom: -37px;
+}
+
+#image {
+	border-bottom: 1px solid;
+	padding-top: 155px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	margin: auto;
+	font-size: 10pt;
+	letter-spacing: 2.5px; 
+	width: 45%;
+	margin-top: 45px;
+}
+
+p::first-letter {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#para {
+	border-bottom: 1px solid;
+	padding-bottom: 55px;
+}
+
+
+h5 {
+	font-style: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+	position: relative;
+	text-align: center; 
+	top: 270px;
+}
+
+#phone {
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+}
+
+
+/* Différents type d'encadrés par la fonction border: largeur[px] type couleur*/ 
+/*Type = [none, dotted, dashed, solid, double, groove, ridge, inset, outset]*/
+
+/* border-radius pour arrondir les bordures
+
+/* Fonction padding pour créer un espacement dans le cadre de texte */
+
+
+/* Ombres box-shadow: dV, dH, Adoucissement, couleur*/
+
