@@ -8,6 +8,15 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -47,11 +56,6 @@ h1 {
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	font-size: 15px;
-}
-
 .C1 {
 	color: grey;
 }
@@ -71,6 +75,7 @@ a:hover {
 
 .drop {
 	text-align: center;
+		padding-top: 25px;
 }
 
 .switcher {
@@ -115,10 +120,10 @@ img {
 p{	
 	position: absolute;
 	text-align: left;
-	margin-left: 175px;
+	margin-left: 155px;
 	font-size: 9.5pt;
 	letter-spacing: 2.5px; 
-	max-width: 200px;
+	max-width: 180px;
 	margin-top: -80px;
 }
 
@@ -143,6 +148,10 @@ h5 {
 	text-align: center; 
 	top: 270px;
 }
+
+.copy {
+	margin-top: -155px;
+}
 }
 
 @media only screen and (min-width: 400px) and (max-width:479px) {
@@ -161,16 +170,16 @@ h1 {
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	font-size: 15px;
-}
 
 .C1 {
+		text-decoration: none;
+	font-size: 15px;
 	color: grey;
 }
 
 .C2 {
+		text-decoration: none;
+	font-size: 15px;
 	color: black;
 	font-weight: bold;
 }
@@ -245,9 +254,9 @@ h5 {
 	font-weight: 100; 
 	letter-spacing:1.5px;
 	font-size: 9.5pt;
+	text-align: center;
 	position: relative;
-	text-align: center; 
-	top: 270px;
+	top: 125px;
 }
 
 .dropdown {
@@ -274,16 +283,16 @@ h1 {
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	font-size: 15px;
-}
 
 .C1 {
+		text-decoration: none;
+	font-size: 15px;
 	color: grey;
 }
 
 .C2 {
+		text-decoration: none;
+	font-size: 15px;
 	color: black;
 	font-weight: bold;
 }
@@ -300,6 +309,7 @@ a:hover {
 	margin-top: 40px;
 	border-bottom: 1px solid;
 }
+
 
 table {
 	margin: 0 auto;
@@ -357,7 +367,7 @@ h5 {
 	font-size: 9.5pt;
 	position: relative;
 	text-align: center; 
-	top: 270px;
+	top: 214px;
 }
 
 .dropdown {
@@ -465,7 +475,7 @@ h5 {
 	font-size: 9.5pt;
 	position: relative;
 	text-align: center; 
-	top: 270px;
+	top: 184px;
 }
 
 .dropdown {
@@ -489,30 +499,26 @@ h1 {
 	font-size: 34pt;
 }
 
-a {
-	text-decoration: none;
-	font-size: 15px;
-}
 
 .C1 {
+	text-decoration: none;
+	font-size: 15px;
 	color: grey;
 }
 
 .C2 {
+	text-decoration: none;
+	font-size: 15px;
 	color: black;
 	font-weight: bold;
 }
 
-a:hover {
-	color: black;
-}
-
 .menu {
-	margin-bottom: -10px;
+	margin-bottom: -6px;
 }
 
 .header {
-	margin-top: 40px;
+	margin-top: 80px;
 	border-bottom: 1px solid;
 }
 
@@ -569,8 +575,8 @@ h5 {
 	letter-spacing:1.5px;
 	font-size: 9.5pt;
 	position: relative;
-	text-align: center; 
-	top: 270px;
+	text-align: center;
+	padding-top: 270px;
 }
 
 #phone {

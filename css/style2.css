@@ -7,11 +7,657 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+	font-weight: 100; 
+	letter-spacing:1.5px;
+}	
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
 body {
 	font-family: "jura";
 	width: 55%;
 	margin: auto;
-	padding-bottom: 35px;
+}
+
+h5 {
+	font-family: 'Jura'; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 100; 
+	letter-spacing:1.5px;
+	font-size: 9.5pt;
+}
+
+@media only screen and (max-width: 399px) {
+body {
+	width: 100%;
+}
+
+td.Q {
+	display: none;
+}
+
+.dropdown {
+	margin: auto;
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+#feuille { 
+	display: none;
+}
+
+
+.link {
+	display: none;
+}
+
+h2 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+h1 {
+		line-height: 48px;
+		font-size: 34pt;
+		text-align: center;
+	}
+
+.C1 {
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+}
+
+.C2 {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+nav {
+	margin: auto;
+}
+
+.menu {
+	margin-bottom: -18px;
+}
+
+.image {
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding:130px;
+}
+
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+.copy {
+	padding-top: 20px;
+	text-align: center;
+}
+
+header {
+	margin: auto;
+	border-bottom: 1px solid;
+}
+
+table {
+	/* border-collapse: collapse; */
+	/* coller les cases entres elles */
+	margin: auto;
+	margin-top: 50px;
+}
+
+.C3 {
+	padding-top: 45px;
+}
+
+tr {}
+
+td {
+	padding: 30px;
+}
+
+td:last-child {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
+}
+
+/* CONTACT PAGE */
+#phonecompas {
+	background-size: 90% auto;
+	position: relative;
+	top: 5px;
+}
+
+.phone {
+	transform: rotate(90deg);
+}
+
+#phone {
+	background-position: left;
+}
+
+/* PORTFOLIO PAGE */
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#compas {
+	display: none;
+}
+
+
+.switcher {
+	display: none;
+}
+
+.animated {
+	-webkit-animation:fadeIn 1.85s;
+}
+
+.image {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+}
+
+@media only screen and (min-width: 400px) and (max-width:479px) {
+	body {
+	width: 100%;
+}
+
+td.Q {
+	display: none;
+}
+
+#feuille { 
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+.link {
+	display: none;
+}
+
+h2 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+h1 {
+		line-height: 48px;
+		font-size: 34pt;
+		text-align: center;
+	}
+
+.C1 {
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+}
+
+.C2 {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+nav {
+	margin: auto;
+}
+
+.menu {
+	margin-bottom: -15px;
+}
+
+.image {
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding:130px;
+}
+
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+.copy {
+	padding-top: 20px;
+	text-align: center;
+}
+
+header {
+	margin: auto;
+	border-bottom: 1px solid;
+}
+
+table {
+	/* border-collapse: collapse; */
+	/* coller les cases entres elles */
+	margin: auto;
+	margin-top: 50px;
+}
+
+.C3 {
+	padding-top: 45px;
+}
+
+tr {}
+
+td {
+	padding: 30px;
+}
+
+td:last-child {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
+}
+
+/* CONTACT PAGE */
+#phonecompas {
+	background-size: 90% auto;
+	position: relative;
+	top: 5px;
+}
+
+.phone {
+	transform: rotate(90deg);
+}
+
+#phone {
+	background-position: left;
+}
+
+/* PORTFOLIO PAGE */
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#compas {
+	display: none;
+}
+
+
+.switcher {
+	text-align: center;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.animated {
+	-webkit-animation:fadeIn 1.85s;
+}
+
+.image {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:959px) {
+body {
+	width: 100%;
+}
+
+td.Q {
+	display: none;
+}
+
+#feuille { 
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+.link {
+	display: none;
+}
+
+h2 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+h1 {
+		line-height: 11px;
+		font-size: 34pt;
+		text-align: center;
+	}
+
+.C1 {
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+}
+
+.C2 {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+nav {
+	margin: auto;
+}
+
+.menu {
+	margin-bottom: -15px;
+}
+
+.image {
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding:130px;
+}
+
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+.copy {
+	padding-top: 81px;
+	text-align: center;
+}
+
+header {
+	margin: auto;
+	border-bottom: 1px solid;
+}
+
+table {
+	/* border-collapse: collapse; */
+	/* coller les cases entres elles */
+	margin: auto;
+	margin-top: 50px;
+}
+
+.C3 {
+	padding-top: 45px;
+}
+
+tr {}
+
+td {
+	padding: 20px;
+}
+
+td:last-child {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
+}
+
+/* CONTACT PAGE */
+#phonecompas {
+	background-size: 90% auto;
+	position: relative;
+	top: 5px;
+}
+
+.phone {
+	transform: rotate(90deg);
+}
+
+#phone {
+	background-position: left;
+}
+
+/* PORTFOLIO PAGE */
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#compas {
+	display: none;
+}
+
+
+.switcher {
+	text-align: center;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.animated {
+	-webkit-animation:fadeIn 1.85s;
+}
+
+.image {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+}
+
+@media only screen and (min-width:960px) and (max-width:1280px) {
+
+td.Q {
+	display: none;
+}
+
+#feuille { 
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+.link {
+	display: none;
+}
+
+h2 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+h1 {
+		line-height: 11px;
+		font-size: 34pt;
+		text-align: center;
+	}
+
+.C1 {
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+}
+
+.C2 {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+nav {
+	margin: auto;
+}
+
+.menu {
+	margin-bottom: -15px;
+}
+
+.image {
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding:130px;
+}
+
+
+.header {
+	margin-top: 40px;
+	border-bottom: 1px solid;
+}
+
+.copy {
+	padding-top: 81px;
+	text-align: center;
+}
+
+header {
+	margin: auto;
+	border-bottom: 1px solid;
+}
+
+table {
+	/* border-collapse: collapse; */
+	/* coller les cases entres elles */
+	margin: auto;
+	margin-top: 50px;
+}
+
+.C3 {
+	padding-top: 45px;
+}
+
+tr {}
+
+td {
+	padding: 20px;
+}
+
+td:last-child {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
+}
+
+/* CONTACT PAGE */
+#phonecompas {
+	background-size: 90% auto;
+	position: relative;
+	top: 5px;
+}
+
+.phone {
+	transform: rotate(90deg);
+}
+
+#phone {
+	background-position: left;
+}
+
+/* PORTFOLIO PAGE */
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#compas {
+	display: none;
+}
+
+
+.switcher {
+	text-align: center;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.animated {
+	-webkit-animation:fadeIn 1.85s;
+}
+
+.image {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+.dropdown {
+	display: none;
+}
+
+#phone, .phone {
+	display: none;
+}
+
+td.Q {
+	width: 100%;
+
+}
+
+.menu {
+	margin-bottom: -6px;
+
+}
+
+body {
+	font-family: "jura";
+	width: 55%;
+	margin: auto;
 }
 
 h1 {
@@ -33,13 +679,20 @@ h5 {
 	font-size: 9.5pt;
 }
 
+.copy {
+	text-align: center;
+	padding-top: 387px;    /* POSITION DU COPYRIGHT */
+
+}
+
 p{
 	text-align: center;
 	font-family: "jura";
-	font-size: 12pt;
+	font-size: 0.875vw;
 	letter-spacing: 2.5px; 
 	margin: auto;
-	width: 45%;
+	width: 100%;
+	white-space: nowrap;
 }
 
 .C1 {
@@ -55,10 +708,6 @@ p{
 	font-weight: bold;
 } 
 
-.C3 {
-	padding-top: 300px;
-}
-
 a:hover {
 	color: black;
 }
@@ -73,75 +722,64 @@ nav {
 	border-bottom: 1px solid;
 }
 
-ul {
-	margin-left: -35px;
+table {
+	/* border-collapse: collapse; */
+	/* coller les cases entres elles */
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+tr {
+	width: 100%;
 	height: 35px;
 }
 
-li {
-	list-style-type: none;
-	display: inline-block;
+td {
 	padding: 15px;
-	text-align: center;
+}
 
+td:last-child {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
 }
 
 /* CONTACT PAGE */
 
-table {
-	/* border-collapse: collapse; */
-	/* coller les cases entres elles */
-	margin: auto;
-}
 
-td {
-	border: 1px solid black;
-	padding: 10px;
-}
-
-#Contact_Block {
-	text-align: center;
-}
-
-
-#Message {
-	margin-top: 1px;
-}
 
 /* PORTFOLIO PAGE */
 
-img {
-	height: 15%;	
-	width: 15%;
+.content {
+	margin-top: 200px;
+	text-align: center;
 }
 
 #compas {
 	transform: rotate(180deg);
+	width: 300px;
+	height: auto;
 }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+#feuille {
+	width: 300px;
+	height: auto;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
 
-  to {
-    opacity: 1;
-  }
-}
 
 .animated {
 	-webkit-animation:fadeIn 1.85s;
 }
+
+.image {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
 /* Différents type d'encadrés par la fonction border: largeur[px] type couleur*/ 
 /*Type = [none, dotted, dashed, solid, double, groove, ridge, inset, outset]*/
 
