@@ -2,49 +2,100 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>F. GUELFI | Portfolios</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 		<link rel="stylesheet" href="css/style1.css" />		
-		<link rel="icon" type="image/png" href="images/favicon-16x16.png"/>
+
+		<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
 	</head>
 	<body>
 		<nav class="header">
 			<div class="menu">
-				<ul>
-					<li><a class="C1" href="index.html">Acceuil</a></li>
-					<li><a class="C2" href="Portfolios.html" target="_self">Portfolios</a></li>
-					<li><a class="C1" href="Contact.html" target="_self">Contact</a></li>
-				</ul>
+			<h1 id="phone">FLORIAN GUELFI</h1>
+			<table class="switcher">	
+				<tr>
+					<td><a class="C1" href="index.html">Acceuil</a></td>
+					<td><a class="C2" href="Portfolios.html" target="_self">Portfolios</a></td>
+					<td><a class="C1" href="Contact.html" target="_self">Contact</a></td>
+					<td class="Q"><h1 id="comput">FLORIAN GUELFI</h1></td>
+				</tr>
+			</table>	
+
+			<div class="drop">
+				<div class="dropdown">
+   					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+  						Menu déroulant
+    				</button>
+    				<div class="dropdown-menu">
+      					<a class="dropdown-item" href="index.html">Acceuil</a>
+     					<a class="dropdown-item" href="Portfolios.html" target="_self">Portfolios</a>
+     					<a class="dropdown-item" href="Contact.html" target="_self">Contact</a>
+   					</div>
+  				</div>
 			</div>
 
-			<div style="position: absolute; top: 58px; left: 1055px">
-				<h1>FLORIAN GUELFI</h1>
 			</div>
 		</nav>
 
 
 		<div class="animated" id="block">
-		<div>
-			<h2>Semestre 1</h2> 
 
-			<table class="t0">
+
+			<table>
+
 				<tr>
-					<td id="croq" style="background-image: url('images/Croq.jpg');" alt="Croq"/> <!-- Sch dans dossier -->	</td>
+					<td colspan="4"><h2>Semestre 1</h2> </td>
+				</tr>
+
+				<tr class="t0">
+					<td colspan="2" class="image" id="croq" style="background-image: url('images/Croq.jpg');" alt="Croq"/> <!-- Sch dans dossier -->	</td>
 					<td class="C3">
 						<p>Synthèse de travaux d'expérimentations :</p>
 						<p>Notions basiques de la conception architecturale</p>	
 					</td>
 					<td class="link"/><a href="data/3.pdf"> <img src="images/pdf.png" alt="pdf"> </a></td>
 				</tr>
-			</table>
-		</div>
-		
-		<div>
-			<h2 class="sem">Semestre 2</h2> 	
+				<tr class="phone">
+					<td class="phone">
+						<p>Synthèse de travaux d'expérimentations :</p>
+						<p>Notions basiques de la conception architecturale</p>	
+					</td>
+				</tr>
 
-			<table class="t1">
 				<tr>
-					<td id="compo" style="background-image: url('images/compo.jpg');" alt="Compo"/></td>
-					<td id="mies" style="background-image: url('images/Mies.jpg');" alt="Mies"/></td>
+					<td class="phone"/><a href="data/3.pdf"> <img src="images/pdf.png" alt="pdf"> </a></td>
+				</tr>
+			
+				<tr class="t1"> 
+					<td colspan="4"><h2 class="sem">Semestre 2</h2></td>
+				</tr>
+
+				<tr class="none">
+					<td colspan="1" class="image" id="compo" style="background-image: url('images/compo.jpg');" alt="Compo"/></td>
+					<td class="image" id="mies" style="background-image: url('images/Mies.jpg');" alt="Mies"/></td>
 
 					<td class="C3">
 						<p>Travaux de recherche sur une icone de l'Architecture : </p>
@@ -52,25 +103,50 @@
 					</td>
 					<td class="link"/><a href="data/1.pdf"> <img src="images/pdf.png" alt="pdf"> </a></td>
 				</tr>
-			</table>	
-			
-				
-			<table class="t2">
+				<tr class="phone" style="height: 181px;">
+					<td colspan="2" class="miesphone" style="background-image: url('images/Mies.jpg');" alt="Mies"/></td>
+				</tr>
+				<tr class="phone">
+						<td class="phone">
+						<p>Travaux de recherche sur une icone de l'Architecture : </p>
+						<p>Le Pavillon Allemand de Barcelone par Mies van der Rohe</p>
+					</td>
+					
+				</tr>
+
 				<tr>
-					<td id="corbu" style="background-image: url('images/corbu.jpg');" alt="Corbu"/> </td>	
+					<td class="phone"/><a href="data/1.pdf"> <img src="images/pdf.png" alt="pdf"> </a></td>
+				</tr>
+				
+				<tr class="t2">
+					<td colspan="2" class="image" id="corbu" style="background-image: url('images/corbu.jpg');" alt="Corbu"/> </td>	
 					<td class="C3">
 						<p>Travaux de recherche et d'expérimentations : </p>
 						<p>Questions de la proportion, la vue et la lumière </p>
 					</td>
 					<td class="link"/><a href="data/2.pdf"> <img src="images/pdf.png" alt="pdf"> </a></td>
 				</tr>
+
+				<tr class="phone">
+					<td class="phone">
+						<p>Travaux de recherche et d'expérimentations : </p>
+						<p>Questions de la proportion, la vue et la lumière </p>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="phone"/><a href="data/2.pdf"> <img src="images/pdf.png" alt="pdf"> </a></td>
+				</tr>
+
 			</table>
 		</div>
 
 		</div>
+		</div>
+		
 				
-			<div style="position: absolute; top: 900px; left: 625px">
-				<h5>© 2018 by FLORIAN GUELFI Engineer/Architect. SiteWeb développé sous HMTL5/CSS3.</h5>
-			</div>
+		<div class="copy" ">
+			<h5>© 2018 by FLORIAN GUELFI Engineer/Architect. SiteWeb développé sous HMTL5/CSS3.</h5>
+		</div>
 	</body>
 </html>
