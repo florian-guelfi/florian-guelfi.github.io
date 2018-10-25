@@ -161,6 +161,7 @@ td:last-child {
 	background-size: 90% auto;
 	position: relative;
 	top: 5px;
+	image-orientation: 90deg;
 }
 
 .phone {
@@ -196,7 +197,6 @@ td:last-child {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
-	image-orientation: 90deg;
 }
 }
 
@@ -305,6 +305,7 @@ td:last-child {
 	background-size: 90% auto;
 	position: relative;
 	top: 5px;
+	image-orientation: 90deg;
 }
 
 .phone {
